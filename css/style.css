@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    color: white;
+    background-color: black;
+    font-size:10px;
+    padding-left: 80px;
+
+}
+
+.combo1{
+    
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-size: 7px;
+    float: right ;
+}
+
+.accesos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    color:#FFFFFF;
+    height: 42px;
+    padding: 10px 40px;
+}
+
+.nombre1{
+    font-size: 20px;
+    color:black;
+}
+
+.nombre1abajo{
+    font-size: 20px;
+    color:#FFFFFF;
+}
+
+#cat{
+    width: 15.68px;
+    height: 13.12px;
+}
+
+#dog{
+    width: 18.38px;
+    height: 14.38px;
+}
+
+.nombre2{
+    color:white;
+    font-size: 20px;
+}
+
+.nombre2abajo{
+    color:#F0A83E;
+    font-size: 20px;
+}
+
+.accesos2{
+    font-size: 13px;
+}
+
+.huellita{
+    width: 15px;
+    height: 14px;
+}
+
+.publicidadcentrada{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.publicidad{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat:round;
+    height: 409px;
+    width: 100%;
+    text-align: right;
+    
+}
+
+.publicidad1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-color: white;
+    width: 365px;
+    height: 54px;
+    font-size:30px;
+    color: #3C2313;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+
+.publicidad2{
+    font-size: 16px;
+    margin: 20px;
+}
+
+.publicidad3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    height: 49px;
+    background-color: #F0A83E;
+    border-color:#F0A83E;
+    color: white;
+    border-radius: 5px;
+}
+
+.destacados{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+.destacados1{
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.destacados2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 15px;
+    text-decoration: none;
+    color: #666666;
+}
+
+.destacados3{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.destacados4{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:flex-end; */
+    align-items:center;
+    background-color: #FBFAF6;   
+    width: 265px;
+    margin: 10px;
+}
+
+.dest1{
+    font-size: 15px;
+    font-weight: 500;
+    color:#3C2313;
+
+}
+
+.dest2{
+    font-size: 15px;
+    font-weight: 500;
+    color: #F0A83E;
+
+
+}
+
+.destacados5{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:flex-end; */
+    align-items:center;
+    background-color: #FBFAF6;
+    width: 265px;
+    margin: 10px;
+}
+
+.destacados6{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:flex-end; */
+    align-items:center;
+    background-color: #FBFAF6;
+    width: 265px;
+    margin: 10px;
+}
+
+.contactanos{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-transform: capitalize;
+    color: #3C2313;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.contactanos1{
+    background-color:#3C2313;
+    color:#FFFFFF;
+    border-radius: 15px;
+    font-size: 9px;
+    width: 340px;
+    height: 40px;
+    margin: 6px;
+    padding-left:15px;
+    font-weight: 400;
+}
+
+.boton{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+
+.boton1{
+    margin: 5px;
+    background-color:#8A8787;
+    color:white;
+    border-color:#8A8787 ;
+    border: 1px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    width: 110px;
+    height: 34px;
+    font-size: 16px;
+}
+
+.boton2{
+    margin: 5px;
+    margin: 5px;
+    background-color:#F0A83E;
+    color:white;
+    border-color:#F0A83E ;
+    border: 1px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    width: 110px;
+    height: 34px;
+    font-size: 16px;
+}
+.suscribirse{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    height: 42px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 50px;
+    margin-top:70px;
+}
+
+.suscribirse1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    font-weight: 700;
+    font-size: 20px;
+    color:#FFFFFF;
+    
+}
+
+#carta{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.suscribirse2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inputcorreo{
+    width: 251px;
+    height: 40px;
+    border-radius: 15px;
+    border-color: #FFFFFF;
+    border:1px;
+    margin: 5px;
+    font-weight: 400;
+    font-size: 9px;
+    padding-left: 15px;
+    color: #A0A0A0;
+
+}
+
+.enviarinput{
+    width: 70px;
+    height: 34px;
+    border-radius: 15px;
+    border-color:#3C2313;
+    background-color: #3C2313;
+    border:1px;
+    margin: 5px;
+    font-weight: 700;
+    font-size: 9px;
+    color:#FFFFFF;    ;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3C2313;
+    height: 284px;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 40px;
+}
+
+#localidad{
+    width: 66px;
+    height: 66px;
+}
+
+#telefono{
+    width: 66px;
+    height: 66px;
+}
+
+#correo{
+    width: 66px;
+    height: 66px;
+}
+
+.info2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 20px;
+    /* height: 105px; */
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:#FFFFFF;
+    margin-left: 30px;
+}
+
+.informacion1{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 1px;
+}
+
+.informacion2{
+    font-weight: 700;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.footer{
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: white;
+    background-color: black;
+    font-size:10px;
+    text-align: center;
+    padding: 4px;
+}
